@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>フォームを使った例 - Amon2</title>
+</head>
+<body>
+<div class="blocked-content">
+<a href="/">トップへ戻る</a>
+
+<h1>フォームを使った例 - Amon2</h1>
+<p>パラメータ r: "<: $r :>"</p>
+
+<form method="GET" action="/form"><fieldset><legend>GET</legend><input type="text" name="r"><input type="submit" value="送信"></fieldset></form>
+
+<form method="POST" action="/form"><fieldset><legend>POST</legend><input type="text" name="r"><input type="submit" value="送信"></fieldset></form>
+</div>
+
+</body>
+</html>

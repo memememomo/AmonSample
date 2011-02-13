@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>ケータイ対応</title>
+<link rel="stylesheet" type="text/css" href="/static/css/style-sites.css">
+</head>
+<body>
+<div class="container">
+<a href="/">戻る</a>
+<h1 class="maintitle">ケータイ対応</h1>
+<div class="bodyContainer">
+<div class="blocked-content">
+<p>あなたのブラウザは<:$mobile_agent:>です</p>
+</div>
+</div>
+<p><a href="/">トップにもどる</a></p>
+</div>
+</body>
+</html>

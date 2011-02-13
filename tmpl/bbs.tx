@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>SQLiteをつかった一言掲示板 - Amon</title>
+</head>
+<body>
+    <div class="blocked-content">
+      <a href="/">トップへ戻る</a>
+        <h1>SQLiteをつかった一言掲示板 - Amon</h1>
+        <form method="POST" action="/bbs/post">
+        <div>
+            Title:
+            <input type="text" name="title">
+        </div>
+        <div>Message</div>
+        <div>
+            <textarea name="message" cols="50" rows="10"></textarea>
+        </div>
+        <div>
+            <input type="submit" value="Post">
+        </div>
+        </form>
+        <div>
+: for $entries -> $entry {
+             <div>
+             <hr>
+             <div>Title: <:$entry.title:></div>
+             <div>Message</div>
+             <div><:$entry.message:></div>
+        </div>
+: }
+        <hr>
+: if $page > 1 {
+        <a href="/bbs?page=<:$prev_page:>">prev</a>
+: } 
+: if $has_next == 1 {
+        <a href="/bbs?page=<:$next_page:>">next</a>
+: }
+     </div>
+</body>
+</html>

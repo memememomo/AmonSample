@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>カウンター</title>
+</head>
+<body>
+<a href="/">トップへ戻る</a>
+<h1>カウンター</h1>
+: if ($is_round_number) {
+<strong>おめでとうございます！！！</strong>
+: }
+あなたは世界で <strong><: $count :> 人目</strong>のスピリチュアルな訪問者です。</p>
+<p>次のキリ番は<: $next_round_number :>です！</p>
+</body>
+</html>

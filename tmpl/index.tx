@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Amonサンプル</title>
+</head>
+<body>
+<h1>Amonサンプル</h1>
+<ul>
+  <li><a href="/form">Form</a></li>
+  <li><a href="/mobile">Mobile</a></li>
+  <li><a href="/counter">Counter</a></li>
+  <li><a href="/session">Session</a></li>
+  <li><a href="/bbs">BBS</a></li>
+</ul>
+</body>
+</html>
